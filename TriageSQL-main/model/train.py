@@ -8,6 +8,7 @@ from model import TransformerMultiClassifier
 import time
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 time_stamp = time.strftime("%m%d%H%M", time.localtime())
 
 
