@@ -20,7 +20,7 @@ class CONFIG(object):
         self.use_gpu = True
         self.device = 0
         self.save = True
-        self.load_model = True # remember to set this value when evaluating
+        self.load_model = False # remember to set this value when evaluating
         self.multi_GPU = True
 
         # params only for eval.py
