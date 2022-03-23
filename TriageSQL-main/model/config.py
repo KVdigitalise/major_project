@@ -8,7 +8,7 @@ class CONFIG(object):
         self.max_input_len = 256
         self.batch_size = 32
         self.epoch = 50
-        self.data_max_size = 1e9 # use 100 if debuging
+        self.data_max_size = 100  # use 100 if debuging
 
         self.pretrain_model_name = "roberta-base"
         # self.data_path = "/home/yusenzhang/input_classify_new/dataset/new_averaged_small_trainset.json"
