@@ -15,7 +15,7 @@ class CONFIG(object):
         # self.model_path = "./checkpoints/07270039_params13.pkl"
         # self.model_path = "../input_classification/params2.pkl"
         # self.model_path = "/home/yusenzhang/input_classify/models/input_multi_classification/checkpoints/07301738_params10.pkl"
-        self.model_path = "../08202014_params24.pkl"
+        self.model_path = "./checkpoints/08202014_params24.pkl"
         # self.model_path = "./checkpoints/08130317_params7.pkl"
         self.use_gpu = True
         self.device = 0
